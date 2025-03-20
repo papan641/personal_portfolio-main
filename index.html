@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/444fe60b93.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <style>
+        @media only screen and (max-width: 768px) {
+            #header {
+                background-image: url('images/me1.png') !important; 
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+            }}</style>
+    <body>
+        <div id="header" style="background-image: url('images/me1.png'); background-size: cover; background-position: center; height: 100vh;">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                    <ul id="nav-links">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Papan Roy</span></h1>
+                    <p>Full Stack Web Developmant</p>
+                </div>
+            </div>
+        </div>
+<!---about-->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"><img src="images/papanroy.png"></div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About Me</h1>
+                        <p> Hello! My name is Papan Roy.I hold a B.tech in CSE from Impact College of Engineering.
+                            I have developed a strong skill set in java and Full Stack Web Developmant , which include problem solving. 
+                            Im passionate about new technology and I,m excited to explore opportunities where I can apply my skills and contribute to learning various skills and tools.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Eduction')">Eduction</p>
+                            <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Techincal Skills</span>
+                                <pre>Python, HTML, CSS, JavaScript, java, React, Html, Css, MySQL</pre>
+                                <li><span>Soft Skills</span><br>Communication<br>Adaptability<br>Basic Problem Solving</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Eduction">
+                            <ul>
+                                <li><span>Impact College of Engineering         -         2021-2024</span><br>B.tech Computer Science   - 68%</li>
+                                <li><span>Brindavan College of Polytechnic -         2014-2021</span><br>Diploma Computer Science             - 78%</li>
+                                <li><span>MGM Higher Secondary School         -         2014</span><br>Commerce (12th)    - 45%</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Hobbies">
+                            <ul>
+                                <li>Listening Music</li>
+                                <li>Watching movies</li>
+                                <li>Learning New Things</li>
+                                <li>Playing Kabaddi</li>
+                                <li>Cooking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!---Projects-->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-address-card"></i>
+                <h3>Identifying Students profile within online judge system using Explaiable Artifical Intelligence</h3><br>
+                <ul>
+                    <li>Developed expertise in applying Explainable Artificial Intelligence (XAI) techniques to enhance transparency and interpretability in educational technology.
+</li>
+                    <li>To categorize students into profiles such as poor, average, good, and excellent based on various metrics like the number of internships, subject marks, etc.</li>
+                </ul>
+                <br><br>
+            </div>
+            <div>
+                <i class="fa-solid fa-list"></i>
+                <h2>To-Do List</h2>
+                <ul>
+                    <li>Developed a responsive to-do list application using HTML, CSS, Bootstrap, and JavaScript, achieving a 95% accuracy in design implementation. </li>
+
+                    <li> Independently aligned front-end components with project specifications, maintaining 98% consistency across the user interface.</li>
+                </ul>
+                <br><br>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>Portfolio</h2>
+                <ul>
+                    <li>The portfolio features a clean, responsive design with clear navigation, showcasing projects, certifications, and contact details interactively.</li>
+
+                    <li> It's professional and user-friendly, effectively highlighting technical skills and achievements.</li>
+                </ul>
+                <br><br>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Certificates-->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificate-list">
+            <div class="work">
+                <img src="images/ApacheKafka.jpeg">
+                <div class="layer">
+                    <h3>Apache Kafka</h3>
+                    <p>Completd ApacheKafka for begineer at Linkedin Learning</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/java.jpeg">
+                <div class="layer">
+                    <h3>Advance java Programming</h3>
+                    <p>Completed Advance java Programming at Linkedin Learning</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WebDevelopment.jpg">
+                <div class="layer">
+                    <h3>Full Stack Web Developmant</h3>
+                    <p>Completd Full Stack Web Developmant at Apna College</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Contact-->
+<div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>
+                        <a href="mailto:ganaparthyjagadeesh@gmail.Com">papanroy641@gmail.Com</a>
+                    </p>
+                    <p><i class="fa-solid fa-square-phone"></i>
+                        <a href="tel:+919063664963">+91 7005885398</a>
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/papan-roy/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/papan641"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/u/papanroy641/"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <a href="images/papan_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="font-size: 10px;">Copyright <i class="fa-regular fa-copyright"></i> papan</p>
+            </div>
+        </div>
+    </div>
+    <script>
+    function opentab(tabname) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    </body>
+</html>
